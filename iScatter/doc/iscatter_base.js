@@ -93,6 +93,7 @@ if (CONFIG['C_AINIT']!='') chartView.attribute('a', CONFIG['C_AINIT']);
 
 
 //HACK
+if (CONFIG['C_XRANGE']!='') chartView.domain(CONFIG['C_XINIT'],CONFIG['C_XRANGE'])
 if (CONFIG['C_YRANGE']!='') chartView.domain(CONFIG['C_YINIT'],CONFIG['C_YRANGE'])
 //END HACK
 
