@@ -97,7 +97,7 @@ if (CONFIG['C_YRANGE']!='') chartView.domain(CONFIG['C_YINIT'],CONFIG['C_YRANGE'
 //END HACK
 
 // increase the circle size and reference line width to make it easier to hover on them
-chartView.size('circle', 2).size('line', 3);
+chartView.size('circle', 5).size('line', 3);
 // increase margins to fit the legend labels and axis titles, even when web page enlarged
 chartView.size('left', 80).size('right', 100).size('bottom', 55);
 
