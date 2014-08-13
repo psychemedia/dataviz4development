@@ -26,6 +26,5 @@ CONFIG={
     "C_YRANGE": [
         0,
         175000
-    ],
-    "C_YSCALE": "log"
+    ]
 }
