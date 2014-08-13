@@ -1,0 +1,160 @@
+/* 
+iScatter 1.0 
+Copyright (c) 2013 by The Open University, UK
+
+CSS by Michel Wermelinger and Sam Leicester
+
+Feel free to modify this to suit your own web site style
+*/
+
+.axis path, 						/* the actual axis */
+.axis line {						/* tick marks */
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {						/* axis labels */
+    font-family: sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.axis.title {						/* axis titles */
+	font-size: 12pt;
+}
+
+.x.title, .y.title {
+	cursor: pointer;
+
+	/* prevents text being selectable */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.set.title {						/* chart title */
+	font-size: 14pt;
+	font-weight: bold;
+	cursor: pointer;
+
+	/* prevents text being selectable */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.click { cursor: pointer; }
+
+title {								/* tooltips aren't affected, why? */
+	font-size: 10pt;
+	font-weight: bold;
+	font-family: serif;
+}
+
+.menu {
+	font-size: 10pt;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+circle {							/* data points */
+	fill: blue;
+	opacity: 0.8;
+	stroke: white;
+	stroke-width: 0.3;
+}
+
+circle.point.selected { }
+circle.point.highlighted { }
+circle.point.grayed { }
+
+
+.tooltip {
+  position: absolute;
+  /*background: rgba(255,255,255,1) url('../src/glyphicons_197_remove.png') no-repeat right top;*/
+  background-color: rgba(255,255,255,1);
+  padding: 10px;
+  border: 1px solid #ddd;
+
+  font-family: Arial;
+  font-size: 13px;
+
+  transition: opacity 500ms linear;
+  -moz-transition: opacity 500ms linear;
+  -webkit-transition: opacity 500ms linear;
+
+  transition-delay: 500ms
+  -moz-transition-delay: 500ms;
+  -webkit-transition-delay: 500ms;
+
+  -moz-box-shadow: 4px 4px 12px rgba(0,0,0,.5);
+  -webkit-box-shadow: 4px 4px 12px rgba(0,0,0,.5);
+  box-shadow: 4px 4px 12px rgba(0,0,0,.5);
+
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+.tooltip h3 {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.tooltip p, .tooltip p.selection:first-child {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border: none;
+}
+
+.tooltip span {
+  display: inline-block;
+  margin: 2px 0;
+}
+
+.tooltip p.selection {
+  margin-top: 0.3em;
+  padding-top: 0.3em;
+  border-top: 1px dotted #000
+}
+
+.tooltip p.selection:hover {
+  background-color: #565656;
+  color: #fff;
+}
+
+.tooltip p.selected {
+	font-weight: bold;
+}
+
+.tooltip p label {
+  margin-left: 0.3em;
+}
+
+#chart-options.tooltip label,
+#set-options label {
+  display: block;
+  margin-left: 0.3em;
+}
+#chart-options label input,
+#set-options label input {
+  width: 3em;
+  margin-left: 0.3em;
+}
+
+#chart-options label select {
+  margin-left: 0.3em;
+}
+
+#set-options .axis {
+  float: left;
+  margin: 0 0.5em;
+}

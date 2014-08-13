@@ -1,0 +1,3 @@
+id,name,description,unit,type,level
+income,income,income,,number,ratio
+index,index,index,,number,ratio
