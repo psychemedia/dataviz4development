@@ -1,0 +1,5 @@
+id,name,description,unit,type,level
+x,x,x,,number,ratio
+index,index,index,,number,ratio
+group,group,group,,string,nominal
+y,y,y,,number,ratio
