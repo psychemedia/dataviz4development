@@ -9,7 +9,12 @@ CONFIG={
     "C_REFERENCES": {},
     "C_SCHEMA": "./data/anscombeq_schema.txt",
     "C_STATS": {
-        "x": [],
+        "x": [
+            "median",
+            "mean",
+            "stddev",
+            "range"
+        ],
         "y": [
             "median",
             "mean",
