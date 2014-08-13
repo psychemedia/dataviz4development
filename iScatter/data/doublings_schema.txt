@@ -1,0 +1,4 @@
+id,name,description,unit,type,level
+y,y,y,,number,ratio
+typ,typ,typ,,string,nominal
+x,x,x,,number,ratio
