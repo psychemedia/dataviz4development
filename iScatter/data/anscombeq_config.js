@@ -22,9 +22,16 @@ CONFIG={
     ],
     "C_XATTR": [],
     "C_XINIT": "x",
+    "C_XRANGE": [
+        0,
+        20
+    ],
     "C_XSCALE": "",
     "C_YATTR": [],
     "C_YINIT": "y",
-    "C_YRANGE": "",
+    "C_YRANGE": [
+        0,
+        15
+    ],
     "C_YSCALE": ""
 }
