@@ -1,0 +1,6 @@
+id,name,description,unit,type,level
+country,country,country,,string,nominal
+SH.DYN.MORT,SH.DYN.MORT,SH.DYN.MORT,,number,ratio
+year,year,year,,number,ratio
+SP.DYN.TFRT.IN,SP.DYN.TFRT.IN,SP.DYN.TFRT.IN,,number,ratio
+SP.DYN.LE00.IN,SP.DYN.LE00.IN,SP.DYN.LE00.IN,,number,ratio
