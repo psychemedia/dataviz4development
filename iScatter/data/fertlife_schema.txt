@@ -1,0 +1,8 @@
+id,name,description,unit,type,level
+SP.DYN.TFRT.IN Bangladesh,SP.DYN.TFRT.IN Bangladesh,SP.DYN.TFRT.IN Bangladesh,,number,ratio
+year,year,year,,number,ratio
+SP.DYN.LE00.IN Bangladesh,SP.DYN.LE00.IN Bangladesh,SP.DYN.LE00.IN Bangladesh,,number,ratio
+SP.DYN.LE00.IN United Kingdom,SP.DYN.LE00.IN United Kingdom,SP.DYN.LE00.IN United Kingdom,,number,ratio
+SP.DYN.LE00.IN China,SP.DYN.LE00.IN China,SP.DYN.LE00.IN China,,number,ratio
+SP.DYN.TFRT.IN United Kingdom,SP.DYN.TFRT.IN United Kingdom,SP.DYN.TFRT.IN United Kingdom,,number,ratio
+SP.DYN.TFRT.IN China,SP.DYN.TFRT.IN China,SP.DYN.TFRT.IN China,,number,ratio
