@@ -1,0 +1,4 @@
+id,name,description,unit,type,level
+Age,Age,Age,,string,nominal
+Year,Year,Year,,number,ratio
+Value,Value,Value,,number,ratio
