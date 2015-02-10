@@ -2,6 +2,11 @@ var pwidth=600
 var pheight=400
 var yearlabeldim=".41em"
 
+//Framefitter
+pwidth=pwidth=20
+pheight=pheight-20
+
+
 var margin = {top: 20, right: 40, bottom: 30, left: 20},
     width = pwidth - margin.left - margin.right,
     height = pheight - margin.top - margin.bottom,
