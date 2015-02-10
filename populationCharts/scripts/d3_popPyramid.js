@@ -3,7 +3,7 @@ var pheight=400
 var yearlabeldim=".41em"
 
 //Framefitter
-pwidth=pwidth=20
+pwidth=pwidth-20
 pheight=pheight-20
 
 
