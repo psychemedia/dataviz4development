@@ -1,5 +1,7 @@
 var pwidth=600
 var pheight=400
+var yearlabeldim=".41em"
+
 var margin = {top: 20, right: 40, bottom: 30, left: 20},
     width = pwidth - margin.left - margin.right,
     height = pheight - margin.top - margin.bottom,
@@ -31,7 +33,7 @@ var birthyears = svg.append("g")
 // A label for the current year.
 var title = svg.append("text")
     .attr("class", "title")
-    .attr("dy", ".71em")
+    .attr("dy", yearlabeldim)
     .text(CONFIG['COUNTRYNAME']+' '+2000);
 
 d3.csv(CONFIG['DATA_URL'], function(error, data) {
